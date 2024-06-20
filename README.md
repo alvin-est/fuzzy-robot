@@ -1,3 +1,8 @@
 # Employee Payroll Tracker Starter Code
 
-## Added feature branch / additional-code
+## About
+
+## Credits
+
+Original code source for the Module Challenge:
+https://github.com/coding-boot-camp/curly-potato
