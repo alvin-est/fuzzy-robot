@@ -1,10 +1,11 @@
 # Employee Payroll Tracker Starter Code
 
 ## About
+A simple user interface utilising JavaScript to process user input and display onto a HTML table.
 
 ## Credits
 
-Original code source for the Module Challenge:
+Original code source for the Module Challenge:  
 https://github.com/coding-boot-camp/curly-potato
 
 ## Challenge Details:
