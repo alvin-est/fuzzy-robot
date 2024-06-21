@@ -70,9 +70,6 @@ const getRandomEmployee = function (employeesArray) {
   // Should work well with zero-indexed array
   let randNum = Math.floor(Math.random() * (employeesArray.length)); 
 
-  console.log(randNum);
-  console.log(employeesArray);
-
   randEmployee = `${employeesArray[randNum].firstName} ${employeesArray[randNum].lastName}`;
 
   console.log(`The random employee is: ${randEmployee}!`);
