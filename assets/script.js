@@ -17,9 +17,19 @@ const collectEmployees = function () {
     salary = prompt("Please enter the employee's salary:");
 
     // Check if Salary is NaN and default to $0
-    if(isNaN(salary)) {
+    if(isNaN(salary) || Number.isNaN(salary)) {
       salary = parseFloat(0);
     }
+
+    // Check for null and return empty string or number
+    if(first === null)
+      first = '';
+    
+    if(last === null)
+      last = '';
+
+    if (salary === null)
+      salary = parseFloat(0);
 
     // Create object and store user input
     const employee = {
@@ -56,7 +66,12 @@ const displayAverageSalary = function (employeesArray) {
 // Select a random employee
 const getRandomEmployee = function (employeesArray) {
 
-  let randNum = Math.floor(Math.random() * (employeesArray.length - 0 + 1));
+  // Returns random number between 0 and the length of array (exclusive)
+  // Should work well with zero-indexed array
+  let randNum = Math.floor(Math.random() * (employeesArray.length)); 
+
+  console.log(randNum);
+  console.log(employeesArray);
 
   randEmployee = `${employeesArray[randNum].firstName} ${employeesArray[randNum].lastName}`;
 
