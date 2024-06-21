@@ -1,7 +1,7 @@
-# Employee Payroll Tracker Starter Code
+# Employee Payroll Tracker
 
 ## About
-A simple user interface utilising JavaScript to process user input and display onto a HTML table.
+A simple user interface utilising JavaScript to process user input and display info onto a HTML table.
 
 ## Credits
 
