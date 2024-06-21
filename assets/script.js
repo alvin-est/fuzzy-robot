@@ -12,9 +12,9 @@ const collectEmployees = function () {
 
   while(loopOn){
     // Prompt for user input
-    first = prompt("first name");
-    last = prompt("last name");
-    salary = prompt("salary");
+    first = prompt("Please enter the employee's first name:");
+    last = prompt("Please enter the employee's last name:");
+    salary = prompt("Please enter the employee's salary:");
 
     // Check if Salary is NaN and default to $0
     if(isNaN(salary)) {
