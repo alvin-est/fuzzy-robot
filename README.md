@@ -4,7 +4,7 @@
 
 ## Credits
 
-Original code source for the Module Challenge:  
+Original code source for the Module Challenge:
 https://github.com/coding-boot-camp/curly-potato
 
 ## Challenge Details:
